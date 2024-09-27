@@ -1,0 +1,12 @@
+* {
+    background-color: white;    
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 450px;
+}
