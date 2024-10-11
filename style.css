@@ -9,7 +9,7 @@ body {
 
 .blue_area {
     background-color: #1F2937;
-    height: 450px;
+    height: 700px;
 }
 
 .header,
@@ -26,9 +26,9 @@ body {
 }
 
 .section_links{
-    position:absolute;
-    margin-left:auto;
     gap:20px;
+    padding-top:10px;
+    margin-right:-100px;
 }
 
 .robot_logo{
@@ -37,6 +37,7 @@ body {
     font-size: 24px;
     font-weight:5px;
     margin-left:200px;
+    padding-top:10px;
     
 }
 
@@ -59,6 +60,7 @@ body {
 
 .subtext{
     display:block;
+    margin-right:auto;
     margin-left:200px;
     margin-top:300px;
 }
@@ -66,7 +68,24 @@ body {
 .hydro_plane_img{
     height: 350px;
     display:block;  
-    margin-right: 200px;
+    margin-right: 300px;
     margin-left: auto;
     margin-top:-250px;
+}
+
+.pre_order_button{
+    position:absolute;
+    text-decoration: none;
+    background-color: #3882F6;
+    color:white;
+    font-weight:200px;
+    margin-left:200px;
+    margin-top:-100px;
+    padding:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+    border-radius:4px;
+    font-size:20px;
+    text-align:center;
 }
