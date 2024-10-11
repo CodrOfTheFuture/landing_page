@@ -1,91 +1,97 @@
-* {
-    background-color: white;    
-    font-family: 'Roboto', sans-serif;
-}
+    * {
+        background-color: white;    
+        font-family: 'Roboto', sans-serif;
+    }
 
-body {
-    margin: 0;
-}
+    body {
+        margin: 0;
+    }
 
-.blue_area {
-    background-color: #1F2937;
-    height: 700px;
-}
+    .blue_area {
+        background-color: #1F2937;
+        height: 700px;
+    }
 
-.header,
-.section_links,
-.subtext{
-    background-color: #1F2937;
-    color:#E5E7Eb;
-    font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-right:200px;
-    justify-content: space-between;
+    .header,
+    .section_links,
+    .subtext{
+        background-color: #1F2937;
+        color:#E5E7Eb;
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right:200px;
+        justify-content: space-between;
 
-}
+    }
 
-.section_links{
-    gap:20px;
-    padding-top:10px;
-    margin-right:-100px;
-}
+    .section_links{
+        gap:20px;
+        padding-top:10px;
+        margin-right:-100px;
+    }
 
-.robot_logo{
-    background-color: #1F2937;
-    color:#F9FAF8;
-    font-size: 24px;
-    font-weight:5px;
-    margin-left:200px;
-    padding-top:10px;
-    
-}
+    .robot_logo{
+        background-color: #1F2937;
+        color:#F9FAF8;
+        font-size: 24px;
+        font-weight:5;
+        margin-left:200px;
+        padding-top:10px;
+        
+    }
 
-.main_text{
-    background-color: #1F2937;
-    color:#F9FAF8;
-    font-size: 48px;
-    font-weight:900px;    
-    position:absolute;
-    margin-left:200px;
-    margin-top:200px;
-}
+    .main_text{
+        background-color: #1F2937;
+        color:#F9FAF8;
+        font-size: 48px;
+        font-weight:900;    
+        position:absolute;
+        margin-left:200px;
+        margin-top:200px;
+    }
 
-.header a{
-    margin-top:10px;
-    gap: 2px;
-    color:#E5E7Eb;
-    text-decoration: none;
-}
+    .header a{
+        margin-top:10px;
+        gap: 2px;
+        color:#E5E7Eb;
+        text-decoration: none;
+    }
 
-.subtext{
-    display:block;
-    margin-right:auto;
-    margin-left:200px;
-    margin-top:300px;
-}
+    .subtext{
+        display:block;
+        margin-right:auto;
+        margin-left:200px;
+        margin-top:290px;
+    }
 
-.hydro_plane_img{
-    height: 350px;
-    display:block;  
-    margin-right: 300px;
-    margin-left: auto;
-    margin-top:-250px;
-}
+    .hydro_plane_img{
+        height: 350px;
+        display:block;  
+        margin-right: 300px;
+        margin-left: auto;
+        margin-top:-250px;
+    }
 
-.pre_order_button{
-    position:absolute;
-    text-decoration: none;
-    background-color: #3882F6;
-    color:white;
-    font-weight:200px;
-    margin-left:200px;
-    margin-top:-100px;
-    padding:20px;
-    padding-top:10px;
-    padding-bottom:10px;
+    .pre_order_button{
+        position:absolute;
+        text-decoration: none;
+        background-color: #3882F6;
+        color:white;
+        font-weight:200;
+        margin-left:200px;
+        margin-top:-100px;
+        padding:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius:4px;
+        font-size:20px;
+        text-align:center;
+    }
 
-    border-radius:4px;
-    font-size:20px;
-    text-align:center;
-}
+    .information_title {
+        text-align: center;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+    }
