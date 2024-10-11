@@ -12,9 +12,61 @@ body {
     height: 450px;
 }
 
-.header{
+.header,
+.section_links,
+.subtext{
     background-color: #1F2937;
     color:#E5E7Eb;
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right:200px;
+    justify-content: space-between;
 
+}
+
+.section_links{
+    position:absolute;
+    margin-left:auto;
+    gap:20px;
+}
+
+.robot_logo{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight:5px;
+    margin-left:200px;
+    
+}
+
+.main_text{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight:900px;    
+    position:absolute;
+    margin-left:200px;
+    margin-top:200px;
+}
+
+.header a{
+    margin-top:10px;
+    gap: 2px;
+    color:#E5E7Eb;
+    text-decoration: none;
+}
+
+.subtext{
+    display:block;
+    margin-left:200px;
+    margin-top:300px;
+}
+
+.hydro_plane_img{
+    height: 350px;
+    display:block;  
+    margin-right: 200px;
+    margin-left: auto;
+    margin-top:-250px;
 }
