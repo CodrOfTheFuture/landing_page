@@ -1,6 +1,7 @@
     * {
         background-color: white;    
         font-family: 'Roboto', sans-serif;
+        flex-wrap: wrap;
     }
 
     body {
@@ -19,7 +20,6 @@
         color:#E5E7Eb;
         font-size: 18px;
         display: flex;
-        flex-wrap: wrap;
         padding-right:200px;
         justify-content: space-between;
 
@@ -35,7 +35,7 @@
         background-color: #1F2937;
         color:#F9FAF8;
         font-size: 24px;
-        font-weight:5;
+        font-weight:900;
         margin-left:200px;
         padding-top:10px;
         
@@ -94,4 +94,16 @@
         font-size: 36px;
         color: #1F2937;
         font-weight: 900;
+        margin-top:230px;
+    }
+
+    /* boxes for information section */
+
+    .box_1{
+        height:210px;
+        width: 200px;
+        border: 5px solid #3882F6;
+        border-radius:20px;
+        margin-left:400px;
+        margin-top:70px;
     }
