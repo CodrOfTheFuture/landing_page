@@ -99,20 +99,33 @@
 
     /* boxes for information section */
 
-    .box_1{
+    .box_1,
+    .box_2,
+    .box_3,
+    .box_4{
         height:210px;
         width: 200px;
         border: 5px solid #3882F6;
         border-radius:20px;
-        margin-left:400px;
-        margin-top:70px;
     }
 
-    .box_2{
-        height:210px;
-        width: 200px;
-        border: 5px solid #3882F6;
+    .information_box{
+        display:flex;
         border-radius:20px;
-        margin-left:600px;
-        margin-top:70px;
+        margin-left:400px;
+        margin-top: 70px;
+        gap: 50px;
+    }
+
+    .text_box{
+        display:flex;
+        border-radius:20px;
+        margin-left:400px;
+        gap: 50px;
+        flex-wrap:wrap;
+    }
+
+    .info_text_1{
+        text-align: center;
+        margin-left:-30px;
     }
