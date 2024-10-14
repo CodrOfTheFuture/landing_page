@@ -157,3 +157,76 @@
         margin-left:1300px;
         margin-top:250px;
     }
+
+    .white_square{
+        height:300px;
+        background-color: white;
+    }
+    .pre-order-end{
+        height: 150px;
+        width: 1000px;
+        background-color:#3882F6;
+        border-radius:9px;
+        margin-bottom: 200px;;
+        margin-inline:400px;
+        justify-content: center;
+        margin-top:200px;
+    }
+
+    .order_text_1{
+        background-color:#3882F6;
+        position:absolute;
+        color:white;
+        font-weight:600;
+        font-size:20px;
+        margin-top:50px;
+        margin-left:150px;
+    }
+
+    .order_text_2{
+        background-color:#3882F6;
+        position:absolute;
+        color:white;
+        font-weight:200;
+        font-size:15px;
+        margin-left:150px;
+        margin-top:80px;
+
+    }
+
+    .pre_order_button_2{
+        position:absolute;
+        text-decoration: none;
+        background-color: #3882F6;
+        color:white;
+        font-weight:200;
+        margin-left:750px;
+        margin-top:70px;
+        padding:10px;
+        padding-top:5px;
+        padding-bottom:5px;
+        border-radius:4px;
+        font-size:15px;
+        text-align:center;
+        outline-style: solid;
+        outline-color: white;
+    }
+
+    .footprint_area{
+        width: 100%;
+        display:flex;
+        height:150px;
+        background-color: #1F2937;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .footprint_text{
+        display:flex;
+        font-size:20px;
+        background-color: #1F2937;
+        color:white;
+
+
+    }
