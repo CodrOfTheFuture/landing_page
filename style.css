@@ -121,11 +121,12 @@
         display:flex;
         border-radius:20px;
         margin-left:400px;
-        gap: 50px;
+        gap: 70px;
         flex-wrap:wrap;
-    }
-
-    .info_text_1{
         text-align: center;
-        margin-left:-30px;
+
+    }
+    
+    .info_text_4{
+        margin-left:20px;
     }
